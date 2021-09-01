@@ -119,7 +119,7 @@ const displayBooks = (books) => {
                 <h3 class="card-title">Title: ${book.title}</h3>
                 <h5 class="card-text">Author: ${book.author_name ? book.author_name : 'unknown'}</h5>
                 <h5 class="card-text">Publisher: ${book.publisher ? book.publisher : 'unknown'}</h5>
-                <h5 class="card-text">First Publish Year: ${book.first_publish_year ? book.first_publish_year : ''}</h5>
+                <h5 class="card-text">First Publish Year: ${book.first_publish_year ? book.first_publish_year : 'unknown'}</h5>
            
             </div>
         </div>
